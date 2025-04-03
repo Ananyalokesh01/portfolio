@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <style>
+        
+body{
+    background-color: rgb(206, 222, 240);
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(1, 1, 38);
+    height: 90px;
+    font-size: 1.5rem;
+}
+
+#image{
+    border-radius: 50%;
+    float: left;
+    padding: 80px;
+    display: inline;
+}
+
+.left{
+   float: left;
+   margin-top: 4rem;
+   margin-left: 5rem;
+}
+
+.rgt{
+     float: right;
+     margin-top: 12rem;
+     margin-right: 10rem;
+     font-size: x-large;
+}
+
+
+.text{
+    
+    font-family: monospace;
+    border-left: 5px;
+    width: 100%;
+    color: black;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+               typing 2s steps(149),
+               cursor .4s step-end infinite alternate;
+}
+  /*cursor blinking*/
+  @keyframes cursor{
+    50%{border-color: transparent;}
+}
+
+/*typing effect*/
+@keyframes typing{
+        from {width:0}
+}
+    </style>
+</head>
+<body>
+    
+    <header>
+     <nav>
+        <p>Ananya's Portfolio</p>
+        
+     </nav>
+    </header>
+    <main>
+        <div class="left">
+                
+            <img id="image" src="picture.jpg" height="300px" >
+        </div>
+         
+         <div class="rgt">
+             <p class="text">Hello! I'm Ananya<br><br>
+              An undergrad @ JSS STU.<br><br>
+             
+                 I like reading comics , personal styling and also listening to music.<br><br>
+             
+                 <a href="ananyalokesh01@gmail.com">mail id</a><br><br>
+             <a href="https://www.linkedin.com/in/ananya-lokesh-612b372a1/">LinkedIn Profile</a>
+             </p>
+         </div>
+     
+            
+            
+    </main>
+</body>
+</html>
